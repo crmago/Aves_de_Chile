@@ -23,7 +23,7 @@
 @media (max-width: 768px) {
     .col-3 {
         width: 100%; /* Cambiar el ancho a 100% cuando la pantalla es pequeña */
-        float: none; /* Resetear la propiedad float */
+        float: none;
         padding: 0; /* Eliminar el padding */
         display: flex; /* Usar flexbox para centrar el contenido */
         justify-content: center; /* Centrar horizontalmente el contenido */
