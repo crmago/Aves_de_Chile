@@ -1,0 +1,32 @@
+.navbar-brand {
+    font-size: 40px; /* Tamaño de la letra */
+}
+
+.card {
+    margin-bottom: 20px; /* Ajusta el margen entre las tarjetas según tus preferencias */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra con desplazamiento 0 en el eje X, 4px en el eje Y, 8px de desenfoque y color de sombra RGBA (negro con 0.1 de opacidad) */
+}
+
+.card-img-top {
+    object-fit: cover; /* Para que la imagen ocupe todo el espacio de la tarjeta sin deformarla */
+    height: 200px; /* Ajusta la altura de las imágenes según tus preferencias */
+}
+
+.col-3 {
+    width: 25%; /* Esto hace que tengas cuatro columnas por fila */
+    float: left; /* Alinear las columnas a la izquierda */
+    box-sizing: border-box; /* Para incluir el padding y el borde en el ancho */
+    padding: 0 15px; 
+}
+
+
+@media (max-width: 768px) {
+    .col-3 {
+        width: 100%; /* Cambiar el ancho a 100% cuando la pantalla es pequeña */
+        float: none; /* Resetear la propiedad float */
+        padding: 0; /* Eliminar el padding */
+        display: flex; /* Usar flexbox para centrar el contenido */
+        justify-content: center; /* Centrar horizontalmente el contenido */
+        align-items: center; /* Centrar verticalmente el contenido */
+    }
+}
