@@ -68,7 +68,7 @@ html_completo = f'''
 print(html_completo)
 
 #6. Escribir el contenido del HTML en un archivo
-with open('aves_de_chile.html', 'w', encoding='utf-8') as file:
+with open('index.html', 'w', encoding='utf-8') as file:
     file.write(html_completo)
 
 print("Archivo HTML generado con éxito.")
